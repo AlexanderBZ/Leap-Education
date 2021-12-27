@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem;
+  margin-bottom: 10rem;
+}
+
+.text {
+  font-size: 2rem;
+  width: 60%;
+  text-align: center;
+  margin: 1rem;
+  margin-right: 3rem;
+}
+
+.text h1 {
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+.text p {
+  margin-top: 2rem;
+  font-size: 3.125rem;
+  font-weight: 300;
+}
+
+.learningButton {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #f4f4f4;
+  padding: 10px;
+  width: 35%;
+  border: 0;
+  background-color: #8093ff;
+  border-radius: 20px;
+}
+
+.highlight {
+  color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+    margin-bottom: 3rem;
+  }
+
+  .learningButton {
+    width: 50%;
+  }
+
+  .logo {
+    width: 60%;
+    margin-top: 3rem;
+  }
+
+  .text h1 {
+    font-size: 2.7rem;
+    margin-bottom: 0;
+  }
+
+  .text p {
+    font-size: 2rem;
+  }
+
+  .learningButton {
+    width: 70%;
+  }
+}

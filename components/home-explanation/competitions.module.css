@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.3rem;
+  margin-bottom: 5rem;
+}
+
+.container h3 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.container p {
+  opacity: 60%;
+}
+
+.container ul {
+  opacity: 60%;
+}
+
+.container h5 {
+  font-weight: normal;
+}
+
+.container hr {
+  width: 25%;
+  margin-right: 80%;
+  margin-top: 0px;
+}
+
+.visit {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -20px;
+}
+
+.image {
+  margin-left: 2rem;
+}
+
+.highlight {
+  color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .container hr {
+    width: 42.5%;
+  }
+}

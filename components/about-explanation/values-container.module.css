@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.valueBoxes {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .valueBoxes {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem;
+  margin-bottom: 5rem;
+}
+
+.text {
+  font-size: 2rem;
+  width: 60%;
+  text-align: center;
+  margin: 1rem;
+  margin-right: 3rem;
+}
+
+.text h1 {
+  font-size: 3rem;
+}
+
+.learningButton {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #f4f4f4;
+  padding: 10px;
+  width: 35%;
+  border: 0;
+  background-color: #8093ff;
+  border-radius: 20px;
+}
+
+.highlight {
+  color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+    margin-bottom: 3rem;
+  }
+
+  .learningButton {
+    width: 50%;
+  }
+
+  .icon {
+    width: 60%;
+    margin-top: 3rem;
+  }
+
+  .text {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .learningButton {
+    width: 70%;
+  }
+}

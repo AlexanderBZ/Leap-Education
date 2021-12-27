@@ -1,0 +1,16 @@
+.list {
+  width: 300px;
+  background-color: white;
+  filter: drop-shadow(0px 2px 4px rgba(38, 50, 56, 0.16))
+    drop-shadow(0px 4px 8px rgba(38, 50, 56, 0.08));
+  top: 98px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+@media (max-width: 1340px) {
+  .list {
+    top: 72px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,28 @@
+.dropdown {
+  position: absolute;
+  top: 98px;
+  width: 150px;
+  overflow: hidden;
+  background: #232526;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.menuItem {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  margin-right: auto;
+}
+
+.menuItem:hover {
+  filter: brightness(125%);
+}
+
+@media (max-width: 1340px) {
+  .dropdown {
+    top: 90px;
+    background: #434749;
+  }
+}

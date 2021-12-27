@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.circle {
+  background-color: #232526;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 3rem;
+}
+
+.inner {
+  font-weight: bold;
+  position: relative;
+  top: 25%;
+  text-align: center;
+  line-height: 0px;
+}
+
+.text {
+  opacity: 60%;
+}
+
+.text h5 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.timeBackground {
+  background-color: #232526;
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+  margin-right: 3rem;
+  margin-left: 1rem;
+}
+
+.length {
+  position: relative;
+  text-align: center;
+  line-height: 0px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}

@@ -1,0 +1,55 @@
+.nfts {
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text h3 {
+  opacity: 60%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.text button {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #f4f4f4;
+  padding: 10px;
+  width: 20%;
+  border: 0;
+  background-color: #8093ff;
+  border-radius: 20px;
+}
+
+.divider {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(128, 147, 255, 0.25) 0%,
+    #7d9bfa 21.14%,
+    #60dbd4 78.8%,
+    rgba(92, 228, 207, 0.25) 100%
+  );
+  border: none;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 768px) {
+  .nfts {
+    flex-direction: column;
+  }
+
+  .text h3 {
+    font-size: 1.5rem;
+  }
+
+  .text button {
+    width: 50%;
+  }
+}

@@ -1,0 +1,97 @@
+.coursePreview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+}
+
+.lessons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  margin-left: 7rem;
+}
+
+.text h2 {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+}
+
+.text h5 {
+  font-size: 1rem;
+  opacity: 60%;
+}
+
+.divider {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(128, 147, 255, 0.25) 0%,
+    #7d9bfa 21.14%,
+    #60dbd4 78.8%,
+    rgba(92, 228, 207, 0.25) 100%
+  );
+  border: none;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+  width: 30%;
+}
+
+.lessons {
+  opacity: 60%;
+}
+
+.lessons h5 {
+  font-size: 1.25rem;
+}
+
+.lessons p {
+  margin-top: 0px;
+  margin-bottom: 4rem;
+  text-align: center;
+  width: 60%;
+}
+
+.cover {
+  position: relative;
+}
+
+.playBtn {
+  display: inline-block;
+  padding: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 70%;
+}
+
+@media (max-width: 768px) {
+  .coursePreview {
+    flex-direction: column;
+  }
+
+  .text {
+    margin-left: 0;
+  }
+
+  .text h2 {
+    text-align: center;
+  }
+
+  .divider {
+    margin-top: 3rem;
+  }
+
+  .lessons p {
+    margin-bottom: 7rem;
+    width: 80%;
+  }
+}
