@@ -29,7 +29,7 @@ export default function SearchBar() {
     <div>
       <form
         className={classes.searchBar}
-        onChange={handleChange}
+        // onChange={handleChange}
         onSubmit={(e) => e.preventDefault()}
       >
         <SearchIcon className={classes.icon} width="25px" />
