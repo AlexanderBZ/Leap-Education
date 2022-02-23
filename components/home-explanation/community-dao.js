@@ -19,7 +19,7 @@ export default function CommunityDAO() {
           <li>Expert led workshops</li>
           <li>A strong alumni of students</li>
         </ul>
-        <Link href={"/courses"}>
+        <Link href={"/courses/calculus-1"}>
           <a>
             <div className={classes.visit}>
               <h5>Join Community</h5>

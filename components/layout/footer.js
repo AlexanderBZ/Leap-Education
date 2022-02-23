@@ -16,13 +16,13 @@ export default function Footer() {
             <Link href="/about">
               <p className={classes.footerItem}>About</p>
             </Link>
-            <Link href="/learn">
+            <Link href="/courses/calculus-1">
               <p className={classes.footerItem}>Learn</p>
             </Link>
           </div>
           <div className={classes.socials}>
             <h3>Socials</h3>
-            <Link href={"https://www.twitter.com/BeatlyMusic/"} passHref>
+            {/* <Link href={"https://www.twitter.com/BeatlyMusic/"} passHref> */}
               <div className={classes.socialLink}>
                 <Image
                   src={"/social-media-icons/twitter.svg"}
@@ -32,8 +32,8 @@ export default function Footer() {
                 />
                 <p>Twitter</p>
               </div>
-            </Link>
-            <Link href={"https://www.instagram.com/beatly.music/"} passHref>
+            {/* </Link> */}
+            {/* <Link href={"https://www.instagram.com/beatly.music/"} passHref> */}
               <div className={classes.socialLink}>
                 <Image
                   src={"/social-media-icons/discord.svg"}
@@ -43,7 +43,7 @@ export default function Footer() {
                 />
                 <p>Discord</p>
               </div>
-            </Link>
+            {/* </Link> */}
           </div>
         </section>
         <section className={classes.missionStatement}>
