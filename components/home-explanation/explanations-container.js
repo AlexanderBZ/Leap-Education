@@ -5,11 +5,14 @@ import classes from "./explanations-container.module.css";
 
 export default function ExplanationsContainer() {
   return (
-    <div className={classes.container}>
-      <h2>Your Leap Card helps us...</h2>
-      <CollegePaths />
-      <CommunityDAO />
-      <Competitions />
-    </div>
+    <a>
+      <hr className={classes.divider} />
+      <div className={classes.container}>
+        <h2>Leap Education courses will help you...</h2>
+        <CollegePaths />
+        <CommunityDAO />
+        <Competitions />
+      </div>
+    </a>
   );
 }

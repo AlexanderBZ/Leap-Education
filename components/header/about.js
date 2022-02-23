@@ -12,7 +12,7 @@ export default function AboutHeader() {
             {" millions of people take free college courses"}
           </span>
         </h1>
-        <Link href={"/courses"}>
+        <Link href={"/courses/calculus-1"}>
           <button className={classes.learningButton}>Start Learning</button>
         </Link>
       </section>

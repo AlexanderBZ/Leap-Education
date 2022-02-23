@@ -10,14 +10,14 @@ export default function CommunityDAO() {
       </section>
       <section>
         <h3>
-          Build a
-          <span className={classes.highlight}> Community first DAO.</span>
+          Learn with a
+          <span className={classes.highlight}> Community of learners.</span>
         </h3>
         <p>We want to build a Strong community with:</p>
         <ul>
           <li>Virtual and IRL events</li>
           <li>Expert led workshops</li>
-          <li>Governance rights and perks for backers</li>
+          <li>A strong alumni of students</li>
         </ul>
         <Link href={"/courses"}>
           <a>

@@ -22,7 +22,7 @@ export default function Home() {
       </Head>
       <div>
         <HomeHeader />
-        <NFTsContainer />
+        {/* <NFTsContainer /> */}
         <HomeExplanation />
         <JoinBox />
       </div>

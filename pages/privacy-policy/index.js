@@ -6,10 +6,10 @@ export default function PrivacyPolicyPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Beatly Music | Privacy Policy</title>
+        <title>Leap Education | Privacy Policy</title>
         <meta
           name="description"
-          content="Please review our Privacy Policy, which also governs your use of any Beatly Service, to understand our practices."
+          content="Please review our Privacy Policy, which also governs your use of any Leap Education Service, to understand our practices."
         />
       </Head>
       <div className={classes.container}>
@@ -18,19 +18,21 @@ export default function PrivacyPolicyPage(props) {
         </h1>
         <p>
           Protecting your private information is our priority. This Statement of
-          Privacy applies to www.beatlymusic.com, and Beatly Music and governs
-          data collection and usage. For the purposes of this Privacy Policy,
-          unless otherwise noted, all references to Beatly Music include
-          www.beatlymusic.com and Beatly. The Beatly website is a news and
-          information site. By using the Beatly website, you consent to the data
-          practices described in this statement.
+          Privacy applies to www.leapeducation.com, and Leap Education and
+          governs data collection and usage. For the purposes of this Privacy
+          Policy, unless otherwise noted, all references to Leap Education
+          include www.leapeducation.com and Leap Education. The Leap Education
+          website is a news and information site. By using the Leap Education
+          website, you consent to the data practices described in this
+          statement.
         </p>
         <h2>
           <strong>Collection of your Personal Information</strong>
         </h2>
         <p>
           In order to better provide you with products and services offered,
-          Beatly may collect personally identifiable information, such as your:
+          Leap Education may collect personally identifiable information, such
+          as your:
         </p>
         <table>
           <tbody>
@@ -43,9 +45,9 @@ export default function PrivacyPolicyPage(props) {
         </table>
         <p>
           Please keep in mind that if you directly disclose personally
-          identifiable information or personally sensitive data through Beatly's
-          public message boards, this information may be collected and used by
-          others.
+          identifiable information or personally sensitive data through Leap
+          Education's public message boards, this information may be collected
+          and used by others.
         </p>
         <p>
           We do not collect any personal information about you unless you
@@ -65,46 +67,46 @@ export default function PrivacyPolicyPage(props) {
           <strong>Use of your Personal Information</strong>
         </h2>
         <p>
-          Beatly collects and uses your personal information to operate and
+          Leap Education collects and uses your personal information to operate and
           deliver the services you have requested.
         </p>
         <p>
-          Beatly may also use your personally identifiable information to inform
-          you of other products or services available from Beatly and its
+          Leap Education may also use your personally identifiable information to inform
+          you of other products or services available from Leap Education and its
           affiliates.
         </p>
         <h2>
           <strong>Sharing Information with Third Parties</strong>
         </h2>
         <p>
-          Beatly does not sell, rent or lease its customer lists to third
+          Leap Education does not sell, rent or lease its customer lists to third
           parties.
         </p>
         <p>
-          Beatly may share data with trusted partners to help perform
+          Leap Education may share data with trusted partners to help perform
           statistical analysis, send you email or postal mail, provide customer
           support, or arrange for deliveries. All such third parties are
           prohibited from using your personal information except to provide
-          these services to Beatly, and they are required to maintain the
+          these services to Leap Education, and they are required to maintain the
           confidentiality of your information.
         </p>
         <p>
-          Beatly may disclose your personal information, without notice, if
+          Leap Education may disclose your personal information, without notice, if
           required to do so by law or in the good faith belief that such action
           is necessary to: (a) conform to the edicts of the law or comply with
-          legal process served on Beatly or the site; (b) protect and defend the
-          rights or property of Beatly; and/or (c) act under exigent
-          circumstances to protect the personal safety of users of Beatly, or
+          legal process served on Leap Education or the site; (b) protect and defend the
+          rights or property of Leap Education; and/or (c) act under exigent
+          circumstances to protect the personal safety of users of Leap Education, or
           the public.
         </p>
         <h2>
           <strong>Tracking User Behavior</strong>
         </h2>
         <p>
-          Beatly may keep track of the websites and pages our users visit within
-          Beatly, in order to determine what Beatly services are the most
+          Leap Education may keep track of the websites and pages our users visit within
+          Leap Education, in order to determine what Leap Education services are the most
           popular. This data is used to deliver customized content and
-          advertising within Beatly to customers whose behavior indicates that
+          advertising within Leap Education to customers whose behavior indicates that
           they are interested in a particular subject area.
         </p>
         <h2>
@@ -112,17 +114,17 @@ export default function PrivacyPolicyPage(props) {
         </h2>
         <p>
           Information about your computer hardware and software may be
-          automatically collected by Beatly. This information can include: your
+          automatically collected by Leap Education. This information can include: your
           IP address, browser type, domain names, access times and referring
           website addresses. This information is used for the operation of the
           service, to maintain quality of the service, and to provide general
-          statistics regarding use of the Beatly website.
+          statistics regarding use of the Leap Education website.
         </p>
         <h2>
           <strong>Use of Cookies</strong>
         </h2>
         <p>
-          The Beatly website may use &quot;cookies&quot; to help you personalize
+          The Leap Education website may use &quot;cookies&quot; to help you personalize
           your online experience. A cookie is a text file that is placed on your
           hard disk by a web page server. Cookies cannot be used to run programs
           or deliver viruses to your computer. Cookies are uniquely assigned to
@@ -133,12 +135,12 @@ export default function PrivacyPolicyPage(props) {
           One of the primary purposes of cookies is to provide a convenience
           feature to save you time. The purpose of a cookie is to tell the Web
           server that you have returned to a specific page. For example, if you
-          personalize Beatly pages, or register with Beatly site or services, a
-          cookie helps Beatly to recall your specific information on subsequent
+          personalize Leap Education pages, or register with Leap Education site or services, a
+          cookie helps Leap Education to recall your specific information on subsequent
           visits. This simplifies the process of recording your personal
           information, such as billing addresses, shipping addresses, and so on.
-          When you return to the same Beatly website, the information you
-          previously provided can be retrieved, so you can easily use the Beatly
+          When you return to the same Leap Education website, the information you
+          previously provided can be retrieved, so you can easily use the Leap Education
           features that you customized.
         </p>
         <p>
@@ -146,7 +148,7 @@ export default function PrivacyPolicyPage(props) {
           automatically accept cookies, but you can usually modify your browser
           setting to decline cookies if you prefer. If you choose to decline
           cookies, you may not be able to fully experience the interactive
-          features of the Beatly services or websites you visit.
+          features of the Leap Education services or websites you visit.
         </p>
         <h2>
           <strong>Links</strong>
@@ -162,8 +164,8 @@ export default function PrivacyPolicyPage(props) {
           <strong>Security of your Personal Information</strong>
         </h2>
         <p>
-          Beatly secures your personal information from unauthorized access,
-          use, or disclosure. Beatly uses the following methods for this
+          Leap Education secures your personal information from unauthorized access,
+          use, or disclosure. Leap Education uses the following methods for this
           purpose:
         </p>
         <table>
@@ -334,19 +336,19 @@ export default function PrivacyPolicyPage(props) {
           <strong>Children Under Thirteen</strong>
         </h2>
         <p>
-          Beatly does not knowingly collect personally identifiable information
+          Leap Education does not knowingly collect personally identifiable information
           from children under the age of thirteen. If you are under the age of
           thirteen, you must ask your parent or guardian for permission to use
           this website.
         </p>
         <h2>
           <strong>
-            Disconnecting your Beatly Account from Third Party Websites
+            Disconnecting your Leap Education Account from Third Party Websites
           </strong>
         </h2>
         <p>
-          You will be able to connect your Beatly account to third party
-          accounts. BY CONNECTING YOUR BEATLY ACCOUNT TO YOUR THIRD PARTY
+          You will be able to connect your Leap Education account to third party
+          accounts. BY CONNECTING YOUR Leap Education ACCOUNT TO YOUR THIRD PARTY
           ACCOUNT, YOU ACKNOWLEDGE AND AGREE THAT YOU ARE CONSENTING TO THE
           CONTINUOUS RELEASE OF INFORMATION ABOUT YOU TO OTHERS (IN ACCORDANCE
           WITH YOUR PRIVACY SETTINGS ON THOSE THIRD PARTY SITES). IF YOU DO NOT
@@ -361,15 +363,15 @@ export default function PrivacyPolicyPage(props) {
           <strong>E-mail Communications</strong>
         </h2>
         <p>
-          From time to time, Beatly may contact you via email for the purpose of
+          From time to time, Leap Education may contact you via email for the purpose of
           providing announcements, promotional offers, alerts, confirmations,
           surveys, and/or other general communication. In order to improve our
           Services, we may receive a notification when you open an email from
-          Beatly or click on a link therein.
+          Leap Education or click on a link therein.
         </p>
         <p>
           If you would like to stop receiving marketing or promotional
-          communications via email from Beatly, you may opt out of such
+          communications via email from Leap Education, you may opt out of such
           communications by Customers may unsubscribe from emails by clicking
           the UNSUBSCRIBE button.
         </p>
@@ -384,7 +386,7 @@ export default function PrivacyPolicyPage(props) {
           <strong>Changes to this Statement</strong>
         </h2>
         <p>
-          Beatly reserves the right to change this Privacy Policy from time to
+          Leap Education reserves the right to change this Privacy Policy from time to
           time. We will notify you about significant changes in the way we treat
           personal information by sending a notice to the primary email address
           specified in your account, by placing a prominent notice on our
@@ -397,15 +399,15 @@ export default function PrivacyPolicyPage(props) {
           <strong>Contact Information</strong>
         </h2>
         <p>
-          Beatly welcomes your questions or comments regarding this Statement of
-          Privacy. If you believe that Beatly has not adhered to this Statement,
-          please contact Beatly at:
+          Leap Education welcomes your questions or comments regarding this Statement of
+          Privacy. If you believe that Leap Education has not adhered to this Statement,
+          please contact Leap Education at:
         </p>
-        <p>Beatly Music</p>
+        <p>Leap Education</p>
         <p>_________________</p>
         <p>Atlanta, Georgia 30326</p>
         <p>Email Address:</p>
-        <p>alexander@beatlymusic.com</p>
+        <p>alexander@leapeducation.com</p>
         <p>Telephone number:</p>
         <p>14046739987</p>
         <p>Effective as of May 31, 2021</p>

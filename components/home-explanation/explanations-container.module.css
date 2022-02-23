@@ -12,6 +12,19 @@
   margin-bottom: 6rem;
 }
 
+.divider {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(128, 147, 255, 0.25) 0%,
+    #7d9bfa 21.14%,
+    #60dbd4 78.8%,
+    rgba(92, 228, 207, 0.25) 100%
+  );
+  border: none;
+  margin-bottom: 5rem;
+}
+
 @media (max-width: 768px) {
   .container h2 {
     text-align: center;

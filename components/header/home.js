@@ -9,8 +9,10 @@ export default function HomeHeader() {
         <h1>
           Take The <span className={classes.highlight}>Leap</span>
         </h1>
-        <p>We’re a learning DAO creating 100% free college courses</p>
-        <Link href={"/courses"}>
+        <p>
+          Helping millions of people get jobs with 100% free college courses
+        </p>
+        <Link href={"/courses/calculus-1"}>
           <button className={classes.learningButton}>Start Learning</button>
         </Link>
       </section>

@@ -7,16 +7,14 @@ export default function Competitions() {
     <div className={classes.container}>
       <section>
         <h3>
-          Hold competitions for
-          <span className={classes.highlight}> Learners</span>
+          Help you get a
+          <span className={classes.highlight}> Job (All for free)</span>
         </h3>
-        <p>
-          We want to help members put what they have learned to use through:
-        </p>
+        <p>After completing courses we'll help you:</p>
         <ul>
-          <li>Bounties</li>
-          <li>Jobs</li>
-          <li>Community projects</li>
+          <li>Find a job that fits your interests</li>
+          <li>Contact employers</li>
+          <li>Kill it in their interview</li>
         </ul>
         <Link href={"/courses"}>
           <a>

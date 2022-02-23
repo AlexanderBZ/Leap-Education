@@ -61,7 +61,7 @@ export default function Footer() {
           width={130}
           height={37}
         />
-        <h3>Copyright © 2021</h3>
+        <h3>Copyright © 2022</h3>
       </section>
     </footer>
   );

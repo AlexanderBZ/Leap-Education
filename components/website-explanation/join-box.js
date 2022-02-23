@@ -1,3 +1,4 @@
+import Link from "next/link";
 import classes from "./join-box.module.css";
 
 export default function JoinBox() {
@@ -5,8 +6,10 @@ export default function JoinBox() {
     <div className={classes.container}>
       <p>Take the Leap, start learning today...</p>
       <div className={classes.buttons}>
-        <button className={classes.learningButton}>Start Learning</button>
-        <button className={classes.crowdfundButton}>View Crowdfund</button>
+        <Link href={"/courses/calculus-1"}>
+          <button className={classes.learningButton}>Start Learning</button>
+        </Link>
+        <button className={classes.crowdfundButton}>Job Opportunities</button>
       </div>
     </div>
   );

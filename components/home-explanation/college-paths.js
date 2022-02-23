@@ -7,10 +7,10 @@ export default function CollegePaths() {
     <div className={classes.container}>
       <section>
         <h3>
-          Create guided
-          <span className={classes.highlight}> College learning paths.</span>
+          Take free
+          <span className={classes.highlight}> College level courses.</span>
         </h3>
-        <p>We want to create in depth videos on:</p>
+        <p>We have in depth courses on:</p>
         <ul>
           <li>Calculus</li>
           <li>Computer Science</li>
