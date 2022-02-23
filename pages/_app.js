@@ -26,10 +26,6 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta charSet="UTF-8" />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@beatly.music" />
-        <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -48,11 +44,6 @@ function MyApp({ Component, pageProps }) {
           href="/favicons/favicon-16x16.png"
         />
         <link rel="manifest" href="/favicons/site.webmanifest" />
-        <link
-          rel="mask-icon"
-          href="/favicons/safari-pinned-tab.svg"
-          color="#5bbad5"
-        />
       </Head>
       <Component {...pageProps} />
     </Layout>
